@@ -8,4 +8,3 @@ function boot() {
 }
 
 boot();
-
