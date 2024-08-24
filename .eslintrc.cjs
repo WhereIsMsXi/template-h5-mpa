@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
+    '@vue/eslint-config-prettier',
     '@vue/eslint-config-typescript',
   ],
   parserOptions: {
@@ -14,7 +15,16 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 1 : 0,
     'no-debugger': process.env.NODE_ENV === 'production' ? 1 : 0,
-    semi: [2, 'always'],
-    quotes: [2, 'single'],
+
+    /**
+     * prettier
+     */
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        printWidth: 80,
+      },
+    ],
   },
 };
