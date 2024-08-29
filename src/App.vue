@@ -1,3 +1,3 @@
 <template>
-  <div>cli-vite-ts</div>
+  <div>template-h5-mpa</div>
 </template>
