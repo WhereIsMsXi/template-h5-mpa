@@ -46,6 +46,9 @@ devDependencies:
   '@vue/tsconfig':
     specifier: ^0.5.0
     version: 0.5.1
+  '@where_is_mr_li/utils':
+    specifier: ^0.0.5
+    version: 0.0.5
   commitizen:
     specifier: ^4.3.0
     version: 4.3.0(typescript@5.3.3)
@@ -1360,6 +1363,10 @@ packages:
 
   /@vue/tsconfig@0.5.1:
     resolution: {integrity: sha512-VcZK7MvpjuTPx2w6blwnwZAu5/LgBUtejFOi3pPGQFXQN5Ela03FUtd2Qtg4yWGGissVL0dr6Ro1LfOFh+PCuQ==}
+    dev: true
+
+  /@where_is_mr_li/utils@0.0.5:
+    resolution: {integrity: sha512-Lxct9HzSo6hEW+vkyodb643Bc2i9BSjYVyBj5lOtASMqsccBb2dV245YUZzz+6Nqx1zgaXXv9Lu2fj0wNeFI8A==}
     dev: true
 
   /JSONStream@1.3.5:
