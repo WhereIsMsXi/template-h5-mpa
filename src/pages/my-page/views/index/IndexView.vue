@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 <template>
-  <div>my-page</div>
+  <div>index-view</div>
 </template>
 <style scoped lang="scss"></style>

@@ -14,6 +14,9 @@ dependencies:
   vue:
     specifier: ^3.3.11
     version: 3.3.13(typescript@5.3.3)
+  vue-router:
+    specifier: ^4.4.3
+    version: 4.4.3(vue@3.3.13)
 
 devDependencies:
   '@commitlint/cli':
@@ -1269,6 +1272,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.3.13
       '@vue/shared': 3.3.13
+
+  /@vue/devtools-api@6.6.3:
+    resolution: {integrity: sha512-0MiMsFma/HqA6g3KLKn+AGpL1kgKhFWszC9U29NfpWK5LE7bjeXxySWJrOJ77hBz+TBrBQ7o4QJqbPbqbs8rJw==}
+    dev: false
 
   /@vue/eslint-config-airbnb-with-typescript@8.0.0(eslint-plugin-vue@9.19.2)(eslint@8.56.0)(typescript@5.3.3):
     resolution: {integrity: sha512-gMaApQBRAOebJtI9NyDfic7XhjXGramJXx/PHcOQBUkmpPhDCDeX7N0oQqZKR6cY9la7LDvELfPRs62KJcAtjg==}
@@ -5973,6 +5980,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-router@4.4.3(vue@3.3.13):
+    resolution: {integrity: sha512-sv6wmNKx2j3aqJQDMxLFzs/u/mjA9Z5LCgy6BE0f7yFWMjrPLnS/sPNn8ARY/FXw6byV18EFutn5lTO6+UsV5A==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.6.3
+      vue: 3.3.13(typescript@5.3.3)
+    dev: false
 
   /vue-template-compiler@2.7.15:
     resolution: {integrity: sha512-yQxjxMptBL7UAog00O8sANud99C6wJF+7kgbcwqkvA38vCGF7HWE66w0ZFnS/kX5gSoJr/PQ4/oS3Ne2pW37Og==}

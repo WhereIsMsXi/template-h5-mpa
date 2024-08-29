@@ -22,7 +22,7 @@ const entry: MpaPageValue = {
     id: 1,
     title: '示例页',
     name: MAP.id1,
-    src: `./src/views/${format2KebabCase(MAP.id1)}`,
+    src: `./src/pages/${format2KebabCase(MAP.id1)}`,
     ftp: `${apiUrl}${prevUrl}/my-page`,
   },
 };
